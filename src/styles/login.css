@@ -77,12 +77,25 @@
     }
     .square-register{
         width: 70vh;
-        height: 120vh;
+        height: 110vh;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: white;
+    }
+    .button-register{
+        width: 85%;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#478cb8;
+        font-size: 20px;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-bottom: 15px;
     }
 
 }
@@ -99,12 +112,25 @@
     }
     .square-register{
         width: 40vh;
-        height: 110vh;
+        height: 100vh;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: white;
+    }
+    .button-register{
+        width: 85%;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#478cb8;
+        font-size: 20px;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-bottom: 15px;
     }
 
 }
