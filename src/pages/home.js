@@ -138,6 +138,7 @@ function Home () {
             setBarang(response.data.data)
             setIdDelete(null)
             setShowDelete(false);
+            setCurrentPage(1)
             Swal.fire(
                 'Success to Delete!',
                 'You clicked the button!',
@@ -163,9 +164,8 @@ function Home () {
     
     const indexOfLastPost = currentPage * postPerPage
     const indexOfFirstPost = indexOfLastPost - postPerPage
-
+    
     const currentPost = barang.slice(indexOfFirstPost,indexOfLastPost)
-
     const pageNumbers = []
 
     for(let i = 1 ; i <= Math.ceil(barang.length/postPerPage); i++){
@@ -220,7 +220,7 @@ function Home () {
                 {(validSearch == false) ?  (
                 currentPost.map((brg)=>(
                  <tr>
-                    <td>{i++}</td>
+                    <td>{barang.indexOf(brg)+1}</td>
                     <td><img src={brg.photo} className='photo'></img></td>
                     <td>{brg.name}</td>
                     <td>Rp. {rupiahFormat(brg.harga_beli)}</td>
