@@ -108,9 +108,16 @@
 }
 
 @media only screen and (min-width:250px) and (max-width: 600px) {
+    .flex-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 140%;
+        background-color: #478cb8;
+    }
     .square{
-        width: 40vh;
-        height: 70vh;
+        width: 80%;
+        height: 80%;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
@@ -118,8 +125,8 @@
         background-color: white;
     }
     .square-register{
-        width: 40vh;
-        height: 80vh;
+        width: 400%;
+        height: 800%;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
