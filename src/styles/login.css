@@ -33,7 +33,7 @@
     padding: 8px;
     width: 85%;
     border: 1px solid gray;
-    margin-bottom: 5vh;
+    margin-bottom: 8vh;
 }
 .button-login{
     width: 85%;
@@ -111,7 +111,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 769px;
+        height: 1025px;
         background-color: #478cb8;
     }
     .square{
