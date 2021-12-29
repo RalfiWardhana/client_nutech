@@ -79,12 +79,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 120vh;
+        height: 140vh;
         background-color: #478cb8;
     }
     .square-register{
         width: 70vh;
-        height: 120vh;
+        height: 140vh;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
