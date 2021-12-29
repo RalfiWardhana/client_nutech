@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     background-color: #478cb8;
 }
 .square{
-    width: 60%;
-    height: 70%;
+    width: 60vh;
+    height: 70vh;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -15,8 +15,8 @@
     background-color: white;
 }
 .square-register{
-    width: 76%;
-    height: 80%;
+    width: 76vh;
+    height: 80vh;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -67,8 +67,8 @@
 }
 @media only screen and (max-width: 820px) and (min-width: 601px) {
     .square{
-        width: 70%;
-        height: 100%;
+        width: 70vh;
+        height: 100vh;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
@@ -79,12 +79,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 140%;
+        height: 140vh;
         background-color: #478cb8;
     }
     .square-register{
-        width: 70%;
-        height: 140%;
+        width: 70vh;
+        height: 140vh;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
@@ -109,8 +109,8 @@
 
 @media only screen and (max-width: 608px) {
     .square{
-        width: 40%;
-        height: 70%;
+        width: 40vh;
+        height: 70vh;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
@@ -118,8 +118,8 @@
         background-color: white;
     }
     .square-register{
-        width: 40%;
-        height: 80%;
+        width: 40vh;
+        height: 80vh;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
