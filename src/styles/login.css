@@ -6,8 +6,8 @@
     background-color: #478cb8;
 }
 .square{
-    width: 60vh;
-    height: 70vh;
+    width: 60%;
+    height: 70%;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -15,8 +15,8 @@
     background-color: white;
 }
 .square-register{
-    width: 76vh;
-    height: 80vh;
+    width: 76%;
+    height: 80%;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
