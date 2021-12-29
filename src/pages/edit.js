@@ -50,12 +50,7 @@ function Edit () {
         }
         reader.readAsDataURL(e.target.files[0])
     }
-    // const handlePhoto = (e) => {
-    //     setPhoto(e.target.files[0])
-    // }
-
    
-
     const edits = async(e) => {
         try {
             const token = localStorage.getItem("token");
@@ -72,7 +67,6 @@ function Edit () {
             formData.append("harga_beli", edit.harga_beli);
             formData.append("stock", edit.stock);
             const resp = await API.patch("/barang/"+params.id,formData,config)
-            console.log(resp.data)
             history.push("/")
             Swal.fire(
                 'Success to Edit!',
@@ -94,7 +88,6 @@ function Edit () {
     useEffect(()=>{
         getBarang()
     },[])
-    console.log(photo)
 
     return(
         <>

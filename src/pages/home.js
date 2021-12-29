@@ -64,16 +64,12 @@ function Home () {
         reader.readAsDataURL(e.target.files[0])
     }
 
-    // const handlePhoto = (e) => {
-    //     setPhoto(e.target.files[0])
-    // }
     const handleSearch = (e) => {
         if(e.target.value == ""){
             setValidSearch(false)
         }
         setSearch({...search,[e.target.name]:e.target.value})
     }
-   console.log(photo)
     const adding = async(e) => {
          try {
              if((add.name || add.harga_beli || add.harga_jual || add.stock) == ""){
@@ -157,7 +153,6 @@ function Home () {
     useEffect(()=>{
         getBarang()
     },[])
-    console.log(barang)
     let i = 1
 
     const [currentPage, setCurrentPage] = useState(1)
@@ -186,7 +181,6 @@ function Home () {
         let resl = barang.filter((bar)=> bar.name.toLowerCase().includes(search.input.toLowerCase()) || bar.harga_beli.toString().includes(search.input.toLowerCase()) || bar.harga_jual.toString().includes(search.input.toLowerCase()) || bar.stock.toString().includes(search.input.toLowerCase()) )
         return resl
     }
-    console.log(result().length)
 
     const rupiahFormat = (value) => {
         var	reverse = value.toString().split('').reverse().join(''),

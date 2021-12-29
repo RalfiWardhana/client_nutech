@@ -77,7 +77,7 @@
     }
     .square-register{
         width: 70vh;
-        height: 100vh;
+        height: 120vh;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
@@ -99,7 +99,7 @@
     }
     .square-register{
         width: 40vh;
-        height: 70vh;
+        height: 110vh;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
