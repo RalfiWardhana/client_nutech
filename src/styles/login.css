@@ -126,7 +126,7 @@
     }
     .square-register{
         width: 80%;
-        height: 70%;
+        height: 80%;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
