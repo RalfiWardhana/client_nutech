@@ -65,7 +65,7 @@
     color:#478cb8 ;
     cursor: pointer;
 }
-@media only screen and (max-width: 820px) and (min-width: 641px) {
+@media only screen and (max-width: 820px) and (min-width: 781px) {
     .flex-center{
         display: flex;
         justify-content: center;
@@ -107,12 +107,12 @@
 
 }
 
-@media only screen and (min-width:0px) and (max-width: 640px) {
+@media only screen and (min-width:0px) and (max-width: 780px) {
     .flex-center{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 640px;
+        height: 780px;
         background-color: #478cb8;
     }
     .square{
