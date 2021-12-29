@@ -33,7 +33,7 @@
     padding: 8px;
     width: 85%;
     border: 1px solid gray;
-    margin-bottom: 6vh;
+    margin-bottom: 7vh;
 }
 .button-login{
     width: 85%;
@@ -59,7 +59,7 @@
     color: white;
     border-radius: 10px;
     cursor: pointer;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .sign-up{
     color:#478cb8 ;
