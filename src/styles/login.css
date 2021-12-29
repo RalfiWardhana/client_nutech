@@ -75,9 +75,16 @@
         align-items: center;
         background-color: white;
     }
+    .flex-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+        background-color: #478cb8;
+    }
     .square-register{
         width: 70vh;
-        height: 100vh;
+        height: 120vh;
         border: 2px solid black;
         display: flex;
         flex-direction: column;
