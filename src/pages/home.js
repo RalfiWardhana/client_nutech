@@ -138,7 +138,6 @@ function Home () {
             setBarang(response.data.data)
             setIdDelete(null)
             setShowDelete(false);
-            setCurrentPage(1)
             Swal.fire(
                 'Success to Delete!',
                 'You clicked the button!',
