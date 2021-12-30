@@ -60,6 +60,21 @@ function Edit () {
                     "Content-Type" : "multipart/form-data"
                 }
             }
+             if((edit.name || edit.harga_beli || edit.harga_jual || edit.stock) == ""){
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'You must complete this edit form'
+                  })
+             }
+             else if((edit.name && edit.harga_beli && edit.harga_jual && edit.stock) == ""){
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'You must complete this edit form'
+                  })
+             }
+            else{
             const formData = new FormData()
             formData.append("photo", photo);
             formData.append("name", edit.name);
@@ -73,6 +88,7 @@ function Edit () {
                 'You clicked the button!',
                 'success'
               )
+            }      
             
         }catch(error){
             console.error();
