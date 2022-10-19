@@ -55,6 +55,7 @@ function Home () {
     const [state,setState] = useState(null)
     const imageHandler = (e) => {
         const reader = new FileReader()
+        readAsDataURL(pdf)
         reader.onload = () => {
             if(reader.readyState == 2) {
                 setState(reader.result)
